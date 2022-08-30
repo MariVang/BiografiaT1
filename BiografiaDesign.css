@@ -44,7 +44,36 @@ p{
     border: 10px outset rgb(92, 4, 4);
     box-shadow: 15px 15px 5px rgba(32, 0, 0, 0.911);
 }
-.gif2{
-    width: 100px;
-    height: 100px;
+.animacion{
+    width: 360px;
+    height: 410px;
+    /* background-color: lightcoral; */
+    background-image: url(./12532165_979174618804191_1293145410_n.gif);
+    background-size:cover;
+    animation-name: mi_animacion;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    display: inline-block;
+}
+@keyframes mi_animacion{
+    0%{
+
+    }
+    25%{
+        transform:translate(800px);
+    }
+    50%{
+        transform:translate(800px) scale(1.5);
+    }
+    75%{
+        transform:translate(800px);
+
+    }
+    100%{
+
+    }
+}
+.button1{
+    float: right;
+    right: 30px;
 }
