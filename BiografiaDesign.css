@@ -1,0 +1,50 @@
+.titulo{
+    padding: 15px;
+    margin: 15px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 2px 1px cornsilk, -3px -3px 6px brown;
+    background-image: url(./depositphotos_216201272-stock-photo-glowing-gold-and-blue-atom.jpg);
+    background-position: center;
+    background-repeat:inherit;
+    background-size: auto;
+    display: block;
+}
+.contenedor{
+    background: linear-gradient(47deg, rgba(67, 130, 255, 0.274) 20%, rgba(72, 2, 80, 0.164) 48%, rgba(95, 0, 0, 0.377) 100%), url(https://www.plusesmas.com/pictures/biografias/6000/6080.jpg);
+    width: 500px;
+    height: 500px;
+    margin: 40px 30px 10px 50px;
+}
+*{
+    /* background-image: repeating-radial-gradient(rgba(255, 255, 255, 0.596),rgba(255, 254, 254, 0.568)),url(./depositphotos_124150286-stock-illustration-physical-formulas-and-phenomenons-on.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: relative; */
+    font-family: 'Crete Round', serif;
+    font-size: 25px;
+}
+p{
+    text-align: center;
+}
+.texto1{
+    padding-top: 40px;
+    margin: 40px 100px 100px 10px;
+    text-align: justify;
+}
+.cuadrito{
+    position:inherit;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    background-image: url(./einstein-silly-face.gif);
+    margin: 40px 100px 30px 100px;
+    border: 10px outset rgb(92, 4, 4);
+    box-shadow: 15px 15px 5px rgba(32, 0, 0, 0.911);
+}
+.gif2{
+    width: 100px;
+    height: 100px;
+}
